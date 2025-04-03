@@ -56,6 +56,7 @@ let listaQS7 = document.querySelector(".han");
 let listaQS8 = document.querySelector(".nat");
 let listaQS9 = document.querySelector(".gin");
 
+
 console.log("Exibindo com Query Selector" + tituloQS.textContent);
 console.log("Exibindo com QS a lista" + listaQS.textContent);
 console.log("Exibindo com QS a lista" + listaQS1.textContent);
@@ -68,10 +69,19 @@ console.log("Exibindo com QS a lista" + listaQS7.textContent);
 console.log("Exibindo com QS a lista" + listaQS8.textContent);
 console.log("Exibindo com QS a lista" + listaQS9.textContent);
 
+//////////////////////////////////////////////////////////////////////////
+
+titulo.innerHTML ="<span style='color:blue'> Meus Esportes Favoritos </span>"
+
+// Criando um novo elemento
+let novoli = document.createElement("li");
+novoli.innerText = "Taekwondo";
 
 
+let novoli2 = document.createElement("li");
+novoli2.innerText = "Ballet";
 
+// Adicionando o novo parágrafo ao body com appendChild
+document.body.appendChild(novoli);
 
-
-
-
+document.body.appendChild(novoli2);
